@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "donutflipscannermod",
+  "version": "1.0.0",
+  "name": "DonutFlipScannerMod",
+  "description": "A Fabric mod for DonutSMP auction monitoring and profitable flip detection.",
+  "authors": [
+    "cabil62113"
+  ],
+  "contact": {
+    "homepage": "https://github.com/cabil62113/DonutFlipScannerMod",
+    "sources": "https://github.com/cabil62113/DonutFlipScannerMod"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.cabil62113.donutflipscannermod.DonutFlipScannerMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": ">=1.20.4",
+    "fabric-api": "*"
+  }
+}
